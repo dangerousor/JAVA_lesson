@@ -11,8 +11,7 @@ public class Main {
         out.println("1.左上\t2.左下\t3.右上\t4.右下\t");
         int pos = scan.nextInt();
         scan.close();
-        int result[][] = new int[number][number];
-        result = make_matrix(number, pos);
+        int result[][] = make_matrix(number, pos);
         for(int i=0; i!=result.length; i++) {
             for (int j = 0; j != result[i].length; j++) {
                 out.print(result[i][j] + "\t");
