@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 import static java.lang.System.out;
 
-class Student {
+public class Student {
     private static student[] students;
 
     private static class student{
