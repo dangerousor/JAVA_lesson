@@ -5,6 +5,7 @@
       <mapping pattern="output" type="PLAIN_TEXT" />
       <mapping pattern="helloworld.java" type="PLAIN_TEXT" />
       <mapping pattern="input" type="PLAIN_TEXT" />
+      <mapping ext="conf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
